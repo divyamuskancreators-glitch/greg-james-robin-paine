@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 const siteTitle = "Greg James | Robin Paine";
 const siteDescription =
-  "An immersive visual story of Greg James and Robin Paine — exploring their journey, work, and the world of IoT Automation.";
+  "An immersive visual story of Greg James and Robin Paine - exploring their journey, work, and the world of IoT Automation.";
 
 export const metadata: Metadata = {
   title: siteTitle,
