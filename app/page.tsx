@@ -256,12 +256,8 @@ export default function Home() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.4, duration: 1 }}
-          className="absolute bottom-7 left-1/2 flex -translate-x-1/2 flex-col items-center gap-3"
+          className="absolute bottom-7 left-1/2 flex -translate-x-1/2 flex-col items-center"
         >
-          <span className="text-[9px] uppercase tracking-[0.35em] text-white/60">
-            Scroll
-          </span>
-
           <motion.span
             animate={{ y: [0, 8, 0] }}
             transition={{
