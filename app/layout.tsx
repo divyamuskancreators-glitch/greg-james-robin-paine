@@ -12,9 +12,26 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const siteTitle = "Greg James | Robin Paine";
+const siteDescription =
+  "An immersive visual story of Greg James and Robin Paine — exploring their journey, work, and the world of IoT Automation.";
+
 export const metadata: Metadata = {
-  title: "Greg James | Robin Paine",
-  description: "IOT AUTOMATION SCANDAL",
+  title: siteTitle,
+  description: siteDescription,
+
+  openGraph: {
+    title: siteTitle,
+    description: siteDescription,
+    type: "website",
+    siteName: siteTitle,
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: siteTitle,
+    description: siteDescription,
+  },
 };
 
 export default function RootLayout({
