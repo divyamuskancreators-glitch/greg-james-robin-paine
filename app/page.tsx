@@ -11,16 +11,16 @@ import {
 import { useState } from "react";
 
 const images = [
-  { src: "/images/property-01.jpg", title: "The Residence", category: "Exterior", number: "01" },
-  { src: "/images/property-02.jpg", title: "First Impression", category: "Arrival", number: "02" },
-  { src: "/images/property-03.jpg", title: "Living Spaces", category: "Interior", number: "03" },
-  { src: "/images/property-04.jpg", title: "The Kitchen", category: "Interior", number: "04" },
-  { src: "/images/property-05.jpg", title: "Gathering", category: "Dining", number: "05" },
-  { src: "/images/property-06.jpg", title: "Private Retreat", category: "Bedroom", number: "06" },
-  { src: "/images/property-07.jpg", title: "Quiet Corner", category: "Bedroom", number: "07" },
-  { src: "/images/property-08.jpg", title: "Refined Detail", category: "Bathroom", number: "08" },
-  { src: "/images/property-09.jpg", title: "Beyond the Walls", category: "Outdoor", number: "09" },
-  { src: "/images/property-10.jpg", title: "The Details", category: "Architecture", number: "10" },
+  { src: "/images/property-01.jpg", title: "Robin Paine", category: "Dominant Partner", number: "69" },
+  { src: "/images/property-02.jpg", title: "Greg James", category: "The Submissive One", number: "69" },
+  { src: "/images/property-03.jpg", title: "Greg James", category: "Co Founder of IOT Automation", number: "69" },
+  { src: "/images/property-04.jpg", title: "Robin | Greg", category: "The Foreplay", number: "69" },
+  { src: "/images/property-05.jpg", title: "IOT AUTOMATION", category: "The Company", number: "69" },
+  { src: "/images/property-06.jpg", title: "INDONESIA SITE", category: "The Brain", number: "69" },
+  { src: "/images/property-07.jpg", title: "FIREFLY & DRAGONFLY", category: "The Showcase", number: "69" },
+  { src: "/images/property-08.jpg", title: "Fresh Greg James", category: "The BODY", number: "69" },
+  { src: "/images/property-09.jpg", title: "Beyond that Underwear", category: "Sneakky", number: "69" },
+  { src: "/images/property-10.jpg", title: "The Sword of Greg James", category: "Revelation", number: "69" },
 ];
 
 const revealUp: Variants = {
@@ -94,7 +94,7 @@ function GalleryImage({
 
       <div className="absolute inset-0 bg-black/0 transition-colors duration-700 group-hover:bg-black/25" />
 
-      <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent p-6 pt-24 md:p-8 md:pt-32">
+      <div className="absolute inset-x-0 bottom-0 bg-linear-to-t from-black/70 via-black/20 to-transparent p-6 pt-24 md:p-8 md:pt-32">
         <div className="translate-y-3 opacity-80 transition-all duration-700 group-hover:translate-y-0 group-hover:opacity-100">
           <p className="text-[9px] uppercase tracking-[0.35em] text-white/65">
             {image.number} — {image.category}
@@ -205,7 +205,7 @@ export default function Home() {
               }}
               className="mb-5 text-[10px] uppercase tracking-[0.45em] text-white/70 md:text-xs"
             >
-              Private Residence
+              STORY UNFOLD
             </motion.p>
 
             <motion.h1
@@ -218,7 +218,7 @@ export default function Home() {
               }}
               className="text-[16vw] font-light leading-[0.78] tracking-[-0.07em] md:text-[12vw]"
             >
-              Greg James
+              Robin Paine
             </motion.h1>
 
             <div className="mt-8 flex items-end justify-between gap-8">
@@ -232,7 +232,7 @@ export default function Home() {
                 }}
                 className="text-xs uppercase tracking-[0.35em] text-white/80 md:text-sm"
               >
-                Robin Paine
+                Managing Director and Co-founder of IoT Automation
               </motion.p>
 
               <motion.p
@@ -244,9 +244,9 @@ export default function Home() {
                 }}
                 className="hidden max-w-xs text-right text-sm leading-relaxed text-white/65 md:block"
               >
-                A study in space, light,
+                Greg James and Robin Paine&apos;s
                 <br />
-                proportion and quiet luxury.
+                Bromance Story.
               </motion.p>
             </div>
           </div>
@@ -287,11 +287,11 @@ export default function Home() {
             className="md:col-span-5"
           >
             <p className="text-[10px] uppercase tracking-[0.4em] text-white/40">
-              01 / The Residence
+              Tag team
             </p>
 
             <h2 className="mt-8 text-5xl font-light leading-[0.95] tracking-tighter md:text-7xl">
-              Space
+              Workspace
               <br />
               becomes
               <br />
@@ -307,10 +307,8 @@ export default function Home() {
             className="flex items-end md:col-span-5 md:col-start-8"
           >
             <p className="max-w-md text-base leading-8 text-white/55 md:text-lg">
-              Every room is considered as part of a larger composition.
-              Natural light moves across carefully selected surfaces,
-              while generous proportions create an atmosphere that feels
-              both contemporary and timeless.
+              No matter where they were at work, they couldn&apos;t hold back
+              the surge of emotion they felt for each other.
             </p>
           </motion.div>
         </div>
@@ -321,7 +319,7 @@ export default function Home() {
           <div className="mb-16 flex items-end justify-between border-b border-white/10 pb-6 md:mb-24">
             <div>
               <p className="text-[10px] uppercase tracking-[0.4em] text-white/40">
-                02 / Gallery
+                Working bed
               </p>
 
               <h2 className="mt-5 text-4xl font-light tracking-[-0.04em] md:text-6xl">
@@ -329,7 +327,7 @@ export default function Home() {
               </h2>
             </div>
 
-            <span className="text-xs text-white/35">10 images</span>
+            <span className="text-xs text-white/35">IOT BROMANCE</span>
           </div>
 
           <div className="grid grid-cols-1 gap-5 md:grid-cols-12 md:gap-8">
@@ -444,11 +442,11 @@ export default function Home() {
               viewport={{ once: true, amount: 0.3 }}
             >
               <p className="text-[10px] uppercase tracking-[0.4em] text-white/60">
-                03 / Atmosphere
+                True Partnership comes within
               </p>
 
               <h2 className="mt-5 text-5xl font-light tracking-tighter md:text-8xl">
-                Light lives here.
+                Very Romantic Sensational
               </h2>
             </motion.div>
 
@@ -471,15 +469,15 @@ export default function Home() {
           >
             <div className="md:col-span-7">
               <p className="text-[10px] uppercase tracking-[0.4em] text-white/40">
-                04 / Closing
+                BREAKING NEWS
               </p>
 
               <h2 className="mt-8 text-6xl font-light leading-[0.9] tracking-[-0.06em] md:text-[9vw]">
-                A place
+                IOT
                 <br />
-                to call
+                AUTOMATION
                 <br />
-                home.
+                SCNDL.
               </h2>
             </div>
 
@@ -496,8 +494,8 @@ export default function Home() {
                 <div className="mt-10 h-px w-24 bg-white/30" />
 
                 <p className="mt-8 max-w-sm text-sm leading-7 text-white/45">
-                  A private residence presented through architecture,
-                  atmosphere and detail.
+                  Unit 15/376-380 Eastern Valley Way, Roseville, 2069 NSW,
+                  Australia (02) 82316636.
                 </p>
               </div>
             </div>
@@ -512,7 +510,7 @@ export default function Home() {
           </p>
 
           <p className="text-[9px] uppercase tracking-[0.3em] text-white/30">
-            Private Residence
+            Private Couple
           </p>
         </div>
       </footer>
